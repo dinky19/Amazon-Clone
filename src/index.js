@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import VideoPlayer from './prac/video';
+import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <>
-    <VideoPlayer/>
+    <App/>
   </>,
   document.getElementById('root')
 );
